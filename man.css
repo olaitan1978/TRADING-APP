@@ -1,0 +1,73 @@
+body{
+    background-image: url("linlo.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+ul{
+    float: left;
+    text-decoration: none;
+    background-color: yellow;
+    
+}
+ul:hover{
+    float: left;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 23px;
+    
+}
+ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    margin: 12px;
+
+}   
+ul li a{
+    text-decoration: none;
+}
+ul li ul{
+    text-decoration: none;
+    position: absolute;
+}
+ul li ul{
+    text-decoration: none;
+    position: absolute;
+    display: none;
+}
+ul li:hover ul {
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    background-color: azure;
+    border-radius: 50px;
+    color: chartreuse;
+    padding: 12px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: yellowgreen 5px solid;
+    padding: 10px;
+    border-radius: 300px;
+}
+
+#fini{
+    background-image: linear-gradient(blue, black, white);
+    border-radius: 50px;
+    padding: 12px;
+}
+ button{
+     font-size: xx-large;   
+     font-weight: bolder;
+     height: 50px;
+     width: auto;
+     border: 5px orange solid;
+     padding: 5px;
+ }
+ .con{
+     display: flex;
+     flex-direction: row;
+ }
+
